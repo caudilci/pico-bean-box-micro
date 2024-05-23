@@ -15,6 +15,7 @@ struct PinMapping {
     bool ButtonSet::* ptrToMember;
 };
 
+// test
 const PinMapping pinMappings[] = {
     #if !USE_UART0
     { 0, &ButtonSet::start },
