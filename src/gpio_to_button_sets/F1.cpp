@@ -31,13 +31,13 @@ const PinMapping pinMappings[] = {
     { 9, &ButtonSet::cDown },
     { 7, &ButtonSet::cRight },
     { 20, &ButtonSet::up },
-    { 18, &ButtonSet::ms },
+    { 5, &ButtonSet::ms },
     { 4, &ButtonSet::z },
     { 13, &ButtonSet::ls },
     { 3, &ButtonSet::x },
     { 11, &ButtonSet::y },
     { 10, &ButtonSet::b },
-    { 5, &ButtonSet::r },
+    { 2, &ButtonSet::r },
 };
 
 bool remapped;
