@@ -19,25 +19,25 @@ const PinMapping pinMappings[] = {
     #if !USE_UART0
     { 0, &ButtonSet::start },
     #endif
-    { 2, &ButtonSet::right },
-    { 3, &ButtonSet::down },
-    { 4, &ButtonSet::left },
+    { 27, &ButtonSet::right },
+    { 26, &ButtonSet::down },
+    { 22, &ButtonSet::left },
     { 5, &ButtonSet::l },
-    { 6, &ButtonSet::mx },
-    { 7, &ButtonSet::my },
-    { 12, &ButtonSet::cUp },
-    { 13, &ButtonSet::cLeft },
-    { 14, &ButtonSet::a },
-    { 15, &ButtonSet::cDown },
-    { 16, &ButtonSet::cRight },
-    { 17, &ButtonSet::up },
+    { 17, &ButtonSet::mx },
+    { 16, &ButtonSet::my },
+    { 6, &ButtonSet::cUp },
+    { 8, &ButtonSet::cLeft },
+    { 12, &ButtonSet::a },
+    { 9, &ButtonSet::cDown },
+    { 7, &ButtonSet::cRight },
+    { 20, &ButtonSet::up },
     { 18, &ButtonSet::ms },
-    { 19, &ButtonSet::z },
-    { 20, &ButtonSet::ls },
-    { 21, &ButtonSet::x },
-    { 22, &ButtonSet::y },
-    { 26, &ButtonSet::b },
-    { 27, &ButtonSet::r }
+    { 5, &ButtonSet::z },
+    { 13, &ButtonSet::ls },
+    { 4, &ButtonSet::x },
+    { 11, &ButtonSet::y },
+    { 2, &ButtonSet::b },
+    { 10, &ButtonSet::r }
 };
 
 bool remapped;
