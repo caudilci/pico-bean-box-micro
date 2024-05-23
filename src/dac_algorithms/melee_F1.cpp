@@ -65,7 +65,7 @@ GCReport getGCReport(GpioToButtonSets::F1::ButtonSet buttonSet) {
     /* Stick */
 
     bool vertical = bs.up || bs.down;
-    bool readUp = bs.up;
+    bool readUp = bs.up || bs.up2;
 
     bool horizontal = bs.left || bs.right;
     bool readRight = bs.right;

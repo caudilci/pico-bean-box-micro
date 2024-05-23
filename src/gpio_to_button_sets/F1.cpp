@@ -37,7 +37,8 @@ const PinMapping pinMappings[] = {
     { 4, &ButtonSet::x },
     { 11, &ButtonSet::y },
     { 10, &ButtonSet::b },
-    { 2, &ButtonSet::r }
+    { 2, &ButtonSet::r },
+    { 21, &ButtonSet::up2 }
 };
 
 bool remapped;
