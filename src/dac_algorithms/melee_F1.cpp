@@ -73,7 +73,7 @@ GCReport getGCReport(GpioToButtonSets::F1::ButtonSet buttonSet) {
     Coords xy;
 
     if (vertical && horizontal) {
-        if (bs.l || bs.r) {
+        if (bs.l || bs.r || bs.ls || bs.ms) {
             if (bs.mx == bs.my) xy = coords(0.7, readUp ? 0.7 : 0.6875);
             else if (bs.mx) xy = coords(0.6375, 0.375);
             else xy = (banParasolDashing && readUp) ? coords(0.475, 0.875) : coords(0.5, 0.85);
