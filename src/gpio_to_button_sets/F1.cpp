@@ -27,17 +27,17 @@ const PinMapping pinMappings[] = {
     { 16, &ButtonSet::my },
     { 6, &ButtonSet::cUp },
     { 8, &ButtonSet::cLeft },
-    { 12, &ButtonSet::a },
+    { 4, &ButtonSet::a },
     { 9, &ButtonSet::cDown },
     { 7, &ButtonSet::cRight },
     { 20, &ButtonSet::up },
     { 5, &ButtonSet::ms },
-    { 4, &ButtonSet::z },
+    { 12, &ButtonSet::z },
     { 13, &ButtonSet::ls },
     { 3, &ButtonSet::x },
     { 11, &ButtonSet::y },
-    { 10, &ButtonSet::b },
-    { 2, &ButtonSet::r },
+    { 2, &ButtonSet::b },
+    { 10, &ButtonSet::r },
 };
 
 bool remapped;
